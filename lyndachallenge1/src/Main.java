@@ -6,6 +6,9 @@ public class Main {
         Dog doggy = new Dog(Color.BLUE, 12, "Snoopy");
 
         doggy.Bark();
+        System.out.println(doggy.getDogAge());
+
+        doggy.fetch();
 
 
     }

@@ -7,8 +7,9 @@ public class Coin {
 
     private int faceUp;
 
-    public Coin (int start){
-        faceUp = start;
+    public Coin (){
+
+        flip();
     }
 
     public void flip(){

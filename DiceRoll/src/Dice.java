@@ -13,9 +13,6 @@ public class Dice {
     public int[] diceFace = {1, 2, 3, 4, 5, 6};
 
     public Dice(int x){
-        if(x <= 0 ){
-            System.out.println("INVALID");
-        }
         this.numberOfDie = x;
     }
 
